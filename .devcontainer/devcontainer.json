@@ -6,6 +6,7 @@
 // hook y Git abortaba antes de contactar al servidor:
 //   "This repository is configured for Git LFS but 'git-lfs' was not found"
 //   "error: failed to push some refs"
+
 // Por eso el postCreateCommand instala git-lfs y registra los filtros LFS.
 {
   "name": "Jupyter",
